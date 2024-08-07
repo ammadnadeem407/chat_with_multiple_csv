@@ -51,3 +51,29 @@ These instructions will help you set up and run the project on your local machin
 
    ```sh
    python -m venv venv
+
+3. **Activate the virtual environment**
+   ```sh
+   .\venv\Scripts\Activate.ps1
+5. **Install required packages**
+   ```sh
+   pip install -r requirements.txt
+7. **Set up OpenAI API key**
+   ```sh
+   export OPENAI_KEY=InsertYourKeyHere
+9. **Run the main application**
+   ```sh
+   python main.py
+
+### Usage
+
+1. Upload your CSV files using the Gradio interface.
+
+2. Start executing queries. The functionality will create indexes of the CSV file data from which the model retrieves the query results.
+
+### Contributing
+If you want to contribute to this project, please fork the repository and create a pull request.
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
