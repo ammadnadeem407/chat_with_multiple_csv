@@ -35,9 +35,8 @@ These instructions will help you set up and run the project on your local machin
 
 ### Prerequisites
 
-- Python (version X.X or later)
+- Python (version 3.10 or later)
 - OpenAI API key
-- RAR file extractor
 
 ### Installation
 
